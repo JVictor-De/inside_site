@@ -1,7 +1,6 @@
 import { Toaster } from "./components/ui/sonner";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
-import { InfoCard } from "./components/InfoCard";
 import { Services } from "./components/Services";
 import { Methodology } from "./components/Methodology";
 import { Process } from "./components/Process";
