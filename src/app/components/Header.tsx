@@ -48,16 +48,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo/Brand */}
           <Link to="/" className="flex items-center gap-3">
-            <img src="/photos/logo-icon.png" alt="INSITE" className="h-8 w-8 object-contain" />
-            <div
-              className="text-xl font-bold"
-              style={{
-                fontFamily: 'Montserrat, sans-serif',
-                color: '#0B2A45'
-              }}
-            >
-              INSITE
-            </div>
+            <img src="/photos/logo-name.png" alt="INSITE" className="h-12.5 w-auto object-contain" />
           </Link>
 
           {/* Navigation */}

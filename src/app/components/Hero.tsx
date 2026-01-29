@@ -19,7 +19,7 @@ export function Hero() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('/photos/foto-fundo-main-people.png')",
+            backgroundImage: "url('/photos/capa-tres.peoples-escura.png')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
