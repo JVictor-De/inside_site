@@ -1,31 +1,26 @@
 import { Toaster } from "./components/ui/sonner";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Header } from "./components/Header";
-import { Hero } from "./components/Hero";
-import { Services } from "./components/Services";
-import { Methodology } from "./components/Methodology";
-import { Process } from "./components/Process";
-import { ConversionFooter } from "./components/ConversionFooter";
-import { StatsSection } from "./components/StatsSection";
-import { DetailsSection } from "./components/DetailsSection";
-import { LearnSection } from "./components/LearnSection";
-import { FeaturesSection } from "./components/FeaturesSection";
-import { Footer } from "./components/Footer";
+import { Home } from "./pages/Home";
+import { Metodologia } from "./pages/Metodologia";
+import { Resultados } from "./pages/Resultados";
+import { QuemSomos } from "./pages/QuemSomos";
+import { Diagnostico } from "./pages/Diagnostico";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
-      <Hero />
-      <Services />
-      <StatsSection />
-      <DetailsSection />
-      <LearnSection />
-      <FeaturesSection />
-      <Methodology />
-      <Process />
-      <ConversionFooter />
-      <Footer />
-      <Toaster />
-    </div>
+    <Router>
+      <div className="min-h-screen bg-white">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/metodologia" element={<Metodologia />} />
+          <Route path="/resultados" element={<Resultados />} />
+          <Route path="/quem-somos" element={<QuemSomos />} />
+          <Route path="/diagnostico" element={<Diagnostico />} />
+        </Routes>
+        <Toaster />
+      </div>
+    </Router>
   );
 }

@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 export function LearnSection() {
   return (
-    <section className="py-24 bg-emerald-50">
+    <section className="py-24" style={{ backgroundColor: '#F5F5F5' }}>
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="rounded-xl overflow-hidden shadow-lg bg-white">
@@ -15,19 +15,24 @@ export function LearnSection() {
 
           <div className="max-w-xl">
             <p className="text-sm text-emerald-700 font-medium">- Tudo é transparente -</p>
-            <h3 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-emerald-900 mt-4 mb-6 leading-tight">
-              Saiba tudo em detalhes com nossos especialistas.
+            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-emerald-900 mt-4 mb-6 leading-tight">
+              Soluções estratégicas que reduzem custos e liberam a agenda do RH.
             </h3>
-            <p className="text-emerald-700 mb-8">
-              Dedicados a fornecer um serviço excepcional e planos de cobertura personalizados que atendam às suas necessidades específicas.
+            <p className="text-emerald-700 mb-6 text-base">
+              Não somos uma seguradora. Somos uma consultoria estratégica — entregamos gestão, inteligência e otimização contínua de benefícios.
             </p>
+
+            <ul className="text-emerald-700 mb-6 space-y-2">
+              <li className="flex items-start gap-3"><span className="text-emerald-800 font-semibold">Para o CFO:</span> Auditoria técnica que identifica economia real e impacto no DRE.</li>
+              <li className="flex items-start gap-3"><span className="text-emerald-800 font-semibold">Para o RH:</span> Suporte operacional completo — eliminamos a burocracia do dia a dia.</li>
+            </ul>
 
             <Button
               size="lg"
               className="bg-emerald-700 text-white font-semibold px-6 py-3 rounded-md shadow-md hover:scale-105 transition-transform"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             >
-              Explorar serviço
+              Fale com um consultor
             </Button>
           </div>
         </div>
