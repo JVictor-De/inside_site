@@ -62,7 +62,7 @@ export function Services() {
     if (conversionFooter) {
       conversionFooter.scrollIntoView({ behavior: 'smooth', block: 'start' });
     } else {
-      console.warn('ConversionFooter não encontrado');
+      window.location.href = '/diagnostico';
     }
   };
 

@@ -29,32 +29,40 @@ export function Footer() {
             {/* Social Icons - Below logo */}
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-md hover:opacity-70 transition"
                 style={{ background: 'rgba(255, 255, 255, 0.1)' }}
-                aria-label="Twitter"
+                aria-label="Facebook"
               >
                   <img src="/photos/icons/icon-facebook.png" alt="" className="w-4 h-4 object-contain opacity-90" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-md hover:opacity-70 transition"
                 style={{ background: 'rgba(255, 255, 255, 0.1)' }}
                 aria-label="Instagram"
               >
-                <img src="/photos/icons/icon-instragram.png" alt="" className="w-4 h-4 object-contain opacity-90" />
+                <img src="/photos/icons/icon-instagram.png" alt="" className="w-4 h-4 object-contain opacity-90" />
               </a>
             
               <a
-                href="#"
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-md hover:opacity-70 transition"
                 style={{ background: 'rgba(255, 255, 255, 0.1)' }}
                 aria-label="LinkedIn"
               >
-                <img src="/photos/icons/icon-linkdin.png" alt="" className="w-4 h-4 object-contain opacity-90" />
+                <img src="/photos/icons/icon-linkedin.png" alt="" className="w-4 h-4 object-contain opacity-90" />
               </a>
                  <a
-                href="#"
+                href="https://wa.me/5521992175903?text=Olá! Vim pelo site e gostaria de mais informações."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-md hover:opacity-70 transition"
                 style={{ background: 'rgba(255, 255, 255, 0.1)' }}
                 aria-label="WhatsApp"

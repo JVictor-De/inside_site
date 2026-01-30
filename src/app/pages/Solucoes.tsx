@@ -167,7 +167,11 @@ export function Solucoes() {
           <button
             onClick={() => {
               const contactSection = document.getElementById('contact-section');
-              contactSection?.scrollIntoView({ behavior: 'smooth' });
+              if (contactSection) {
+                contactSection.scrollIntoView({ behavior: 'smooth' });
+              } else {
+                window.location.href = '/diagnostico';
+              }
             }}
             className="px-10 py-5 rounded-full text-white font-bold text-lg hover:scale-105 transition-transform shadow-lg"
             style={{ 

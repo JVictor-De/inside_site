@@ -144,7 +144,11 @@ export function Hero() {
               }}
               onClick={() => {
                 const contactSection = document.getElementById('contact-section');
-                contactSection?.scrollIntoView({ behavior: 'smooth' });
+                if (contactSection) {
+                  contactSection.scrollIntoView({ behavior: 'smooth' });
+                } else {
+                  window.location.href = '/diagnostico';
+                }
               }}
             >
               ESTANCAR O SANGRAMENTO

@@ -97,10 +97,17 @@ export function StatsSection() {
             >
               <strong>Mantendo o mesmo padrão e cobertura</strong> e melhorando a satisfação dos colaboradores. Esta ação representou uma economia significativa para o cliente.
             </p>
-            <a 
-              href="tel:+5521992175903" 
+            <a
+              href="/#contact-section"
+              onClick={(e) => {
+                const contactSection = document.getElementById('contact-section');
+                if (contactSection) {
+                  e.preventDefault();
+                  contactSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
               className="inline-block px-8 py-4 rounded-full font-semibold shadow-lg transition-transform hover:scale-105"
-              style={{ 
+              style={{
                 backgroundColor: '#1F7A5A',
                 color: 'white',
                 fontFamily: 'Lato, sans-serif'

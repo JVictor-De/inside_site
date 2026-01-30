@@ -377,7 +377,11 @@ export function HowWeWork() {
           <button
             onClick={() => {
               const contactSection = document.getElementById('contact-section');
-              contactSection?.scrollIntoView({ behavior: 'smooth' });
+              if (contactSection) {
+                contactSection.scrollIntoView({ behavior: 'smooth' });
+              } else {
+                window.location.href = '/diagnostico';
+              }
             }}
             className="px-8 py-4 rounded-full text-white font-semibold text-lg hover:scale-105 transition-transform shadow-lg"
             style={{ 

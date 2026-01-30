@@ -62,8 +62,8 @@ export function DetailsSection() {
 
             <div className="p-6 bg-emerald-800/80 text-white">
               <p className="text-sm">Escaneie e agende uma conversa</p>
-              <div className="mt-3">
-                <img src="/photos/qr-placeholder.png" alt="QR" className="w-28 h-28 object-contain bg-white rounded" />
+                <div className="mt-3">
+                <img src="/photos/foto-fundo-main-people.png" alt="QR" className="w-28 h-28 object-contain bg-white rounded" />
               </div>
             </div>
           </div>

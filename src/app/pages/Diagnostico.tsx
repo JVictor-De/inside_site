@@ -177,7 +177,7 @@ export function Diagnostico() {
                 </h3>
                 <div className="space-y-4">
                   <a 
-                    href="https://wa.me/5511999999999"
+                    href="https://wa.me/5521992175903?text=Olá! Vim pelo site e gostaria de mais informações."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="relative flex items-center gap-3 p-5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl overflow-hidden group"

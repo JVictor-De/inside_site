@@ -51,7 +51,7 @@ export function Footer() {
               style={{ background: '#1e4a5f' }}
               aria-label="Instagram"
             >
-              <img src="/photos/icons/icon-instragram.png" alt="" className="w-5 h-5 object-contain opacity-90" />
+              <img src="/photos/icons/icon-instagram.png" alt="" className="w-5 h-5 object-contain opacity-90" />
             </a>
             <a
               href="#"
@@ -69,7 +69,7 @@ export function Footer() {
               style={{ background: '#1e4a5f' }}
               aria-label="LinkedIn"
             >
-              <img src="/photos/icons/icon-linkdin.png" alt="" className="w-5 h-5 object-contain opacity-90" />
+              <img src="/photos/icons/icon-linkedin.png" alt="" className="w-5 h-5 object-contain opacity-90" />
             </a>
           </div>
         </div>
