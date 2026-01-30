@@ -22,6 +22,17 @@ export function StatsSection() {
         aria-hidden="true"
       />
 
+      {/* Top gradient fade overlay */}
+      <div
+        className="absolute top-0 left-0 right-0 h-40 z-10 pointer-events-none"
+        style={{
+          background: 'linear-gradient(to bottom, #0a243b, transparent)',
+        }}
+        aria-hidden="true"
+      />
+
+     
+
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>

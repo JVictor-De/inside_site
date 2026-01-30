@@ -252,17 +252,21 @@ export function Services() {
           }
         }
         
+          /* Disable CSS-driven marquee transform to avoid conflict with JS scroll/drag.
+            The wrapper was being transformed (moved left) by this animation which
+            conflicts with the manual 'scrollLeft' manipulation and drag handlers.
+            Keeping the animation disabled allows the JS scroll/drag to move the
+            cards as expected.
+          */
         .marquee-container {
           animation: infiniteScroll 40s linear infinite;
         }
-        
         .marquee-container.paused {
           animation-play-state: paused;
         }
-        
-        .animated-thumb {\n          animation: thumbAnimation 40s linear infinite;
-        }
-        
+
+        .animated-thumb { animation: thumbAnimation 40s linear infinite; }
+
         .animated-thumb.paused {
           animation-play-state: paused;
         }
@@ -361,7 +365,8 @@ export function Services() {
                     boxShadow: hoveredIndex === idx 
                       ? '0 8px 24px rgba(0, 0, 0, 0.12)' 
                       : '0 2px 8px rgba(0, 0, 0, 0.04)',
-                    transform: hoveredIndex === idx ? 'translateY(-4px)' : 'translateY(0)'
+                    transform: hoveredIndex === idx ? 'translateY(-4px)' : 'translateY(0)',
+                    willChange: 'transform, box-shadow'
                   }}
                 >
                   {/* Card Image Container */}
@@ -376,9 +381,18 @@ export function Services() {
                     <img 
                       src={s.img} 
                       alt={s.title.replace('\n', ' ')} 
+                      loading="lazy"
+                      draggable={false}
+                      onError={(e) => { 
+                        const target = e.currentTarget as HTMLImageElement;
+                        const fallback = '/photos/foto-fundo-main-people.png';
+                        if (target.src !== fallback) target.src = fallback;
+                      }}
                       className="w-full h-full object-cover transition-transform duration-500"
                       style={{
-                        transform: hoveredIndex === idx ? 'scale(1.05)' : 'scale(1)'
+                        transform: hoveredIndex === idx ? 'scale(1.05)' : 'scale(1)',
+                        objectPosition: hoveredIndex === idx ? '60% center' : '55% center',
+                        willChange: 'transform, object-position'
                       }}
                     />
                     
@@ -438,42 +452,17 @@ export function Services() {
           </div>
         </div>
 
-        {/* Custom Scrollbar */}
-        <div className="flex justify-center mt-12">
-          <div 
-            ref={scrollbarRef}
-            className="relative cursor-pointer"
-            style={{ 
-              width: '280px',
-              height: '20px'
-            }}
-            onClick={handleScrollbarClick}
-          >
-            {/* Track (linha fina) */}
-            <div 
-              className="absolute top-1/2 left-0 right-0"
-              style={{
-                height: '2px',
-                background: '#E5E5E5',
-                transform: 'translateY(-50%)'
-              }}
-            />
-            
-            {/* Thumb (barra preta) - sincronizado com o scroll */}
-            <div 
-              className="absolute top-1/2 transition-transform duration-100"
-              style={{
-                width: '80px',
-                height: '4px',
-                background: '#000000',
-                borderRadius: '2px',
-                transform: `translate(${scrollProgress * (280 - 80)}px, -50%)`,
-                cursor: isDraggingThumb ? 'grabbing' : 'grab'
-              }}
-              onMouseDown={handleThumbMouseDown}
-            />
+        {/**
+          Custom Scrollbar wrapper commented out.
+          Original markup for reference:
+
+          <div className="flex justify-center mt-12">
+            <div ref={scrollbarRef} className="relative cursor-pointer" style={{ width: '280px', height: '20px' }} onClick={handleScrollbarClick}>
+              <div className="absolute top-1/2 left-0 right-0" style={{ height: '2px', background: '#E5E5E5', transform: 'translateY(-50%)' }} />
+              <div className="absolute top-1/2 transition-transform duration-100" style={{ width: '80px', height: '4px', background: '#000000', borderRadius: '2px', transform: `translate(${scrollProgress * (280 - 80)}px, -50%)` }} onMouseDown={handleThumbMouseDown} />
+            </div>
           </div>
-        </div>
+        */}
       </div>
     </section>
   );

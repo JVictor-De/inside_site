@@ -12,15 +12,26 @@ import { StickyBarMobile } from "../components/StickyBarMobile";
 
 export function Home() {
   return (
-    <div className="min-h-screen bg-white">
+   <div className="min-h-screen bg-white">
+      {/* A Dor (O Problema) */}
       <Hero />
-      <AboutSection />
-      <FeaturesSection />
-      <HowWeWork />
-      <Services />
+
+      {/* A Prova (Que você resolve) */}
       <StatsSection />
+      <FeaturesSection />
+
+      {/* O Método (Como você resolve) */}
       <Methodology />
       <Process />
+
+      {/* O Escopo (O que você cobre) */}
+      <Services />
+
+      {/* A Autoridade (Quem é você) */}
+      {/*<AboutSection />*/}
+      <HowWeWork />
+
+      {/* A Ação (O próximo passo) */}
       <ConversionFooter />
       <Footer />
       <StickyBarMobile />
