@@ -391,7 +391,7 @@ export function Services() {
                       className="w-full h-full object-cover transition-transform duration-500"
                       style={{
                         transform: hoveredIndex === idx ? 'scale(1.05)' : 'scale(1)',
-                        objectPosition: hoveredIndex === idx ? '60% center' : '55% center',
+                        objectPosition: hoveredIndex === idx ? '60% center' : '100% center',
                         willChange: 'transform, object-position'
                       }}
                     />
