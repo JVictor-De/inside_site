@@ -24,7 +24,7 @@ export function Services() {
     },
     {
       title: 'Tele-\nmedicina',
-      img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?q=80&w=800&auto=format&fit=crop'
+      img: '/photos/foto-fundo-main-people.png'
     },
     {
       title: 'Clube de\nVantagens',
@@ -74,9 +74,15 @@ export function Services() {
             alt={s.title.replace('\n', ' ')} 
             loading="lazy"
             draggable={false}
+            onError={(e) => {
+              const t = e.currentTarget as HTMLImageElement;
+              const fallback = '/photos/foto-fundo-main-people.png';
+              if (t.src !== fallback) t.src = fallback;
+            }}
             className="w-full h-full object-cover transition-transform duration-500"
             style={{
-              transform: hoveredIndex === globalIdx ? 'scale(1.05)' : 'scale(1)'
+              transform: hoveredIndex === globalIdx ? 'scale(1.05)' : 'scale(1)',
+              objectPosition: s.title.includes('Tele') ? 'right center' : 'center'
             }}
           />
           
