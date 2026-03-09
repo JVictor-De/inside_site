@@ -12,14 +12,14 @@ const approaches = [
   {
     icon: Shield,
     title: "Blindagem Operacional",
-    description: "Seu RH livre da burocracia diária. Assumimos a carga operacional.",
+    description: "Seu RH tem apoio da corretora.",
     metric: "100%",
     metricLabel: "gestão ativa"
   },
   {
     icon: Activity,
     title: "Monitoramento Contínuo",
-    description: "Não aparecemos só na renovação. Gestão ativa para evitar reajustes abusivos.",
+    description: "Não aparecemos só na renovação. Gestão ativa com leitura de cenário e apoio contínuo à empresa.",
     metric: "24/7",
     metricLabel: "acompanhamento"
   }

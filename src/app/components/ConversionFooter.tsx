@@ -88,12 +88,6 @@ export function ConversionFooter() {
             </span>
           </h2>
           
-          <p 
-            className="text-xl text-white/80 max-w-2xl mx-auto"
-            style={{ fontFamily: 'Lato, sans-serif' }}
-          >
-            Responda 3 perguntas rápidas e receba uma análise personalizada em até 24h
-          </p>
         </div>
           
         {/* Glassmorphism Container */}
@@ -241,7 +235,7 @@ export function ConversionFooter() {
                   className="text-white/80 leading-relaxed"
                   style={{ fontFamily: 'Lato, sans-serif' }}
                 >
-                  Em até 12 horas, um dos nossos especialistas fará uma ligação para agendar a reunião mais importante para a sua Corretora, e juntos iremos criar um Plano Completo para ter Leads qualificados todos os dias.
+                  Um de nossos especialistas fará contato para agendar a reunião mais estratégica do seu ano. Juntos, criaremos um plano completo para estancar seus custos financeiros.
                 </p>
               </div>
             </div>

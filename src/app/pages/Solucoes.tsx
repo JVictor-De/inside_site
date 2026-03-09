@@ -52,7 +52,7 @@ export function Solucoes() {
                 fontFamily: 'Lato, sans-serif'
               }}
             >
-              Sua empresa não precisa de mais um corretor que some depois da venda. Precisa de gestão cirúrgica que audita, negocia e blinda contra reajustes abusivos. Mês após mês.
+              Sua empresa não precisa de mais um corretor que some depois da venda. Precisa de gestão cirúrgica que audita, negocia e acompanha a operação junto à seguradora. Mês após mês.
             </p>
           </div>
         </div>

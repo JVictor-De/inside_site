@@ -7,12 +7,12 @@ const steps = [
   {
     number: "02",
     title: "Proposta Técnica",
-    description: "Cenário atual vs. otimizado lado a lado. Números claros de economia e melhorias de cobertura."
+    description: "Mostramos o cenário atual da seguradora, os princípios de cada alternativa e os benefícios de cada opção para a sua empresa."
   },
   {
     number: "03",
-    title: "Implementação Ágil",
-    description: "Cuidamos de toda a migração e burocracia. Sua equipe não perde tempo. Você só assina e economiza."
+    title: "Implantação assistida",
+    description: "Cuidamos da implantação assistida e da burocracia de transição. Sua equipe não perde tempo durante a mudança."
   }
 ];
 

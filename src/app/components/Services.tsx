@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 
 export function Services() {
@@ -45,7 +45,7 @@ export function Services() {
   };
 
   // Card component para reutilização
-  const ServiceCard = ({ s, idx, globalIdx }: { s: typeof services[0], idx: number, globalIdx: number }) => (
+  const ServiceCard = ({ s, globalIdx }: { s: typeof services[0], globalIdx: number }) => (
     <div 
       className="flex-shrink-0"
       onMouseEnter={() => setHoveredIndex(globalIdx)}
@@ -229,12 +229,6 @@ export function Services() {
             <br />
             <span style={{ color: '#1F7A5A' }}>PARA SUA EMPRESA</span>
           </h2>
-          <p 
-            className="max-w-3xl mx-auto text-lg mt-6"
-            style={{ color: '#4A5568', fontFamily: 'Lato, sans-serif' }}
-          >
-            Plano de Saúde Empresarial, Plano Odontológico, Seguro de Vida em Grupo e Seguro Patrimonial. Além de soluções personalizadas com telemedicina e clube de vantagens.
-          </p>
         </div>
 
         {/* Infinite Marquee Carousel */}
@@ -247,14 +241,14 @@ export function Services() {
             {/* First group */}
             <div className="marquee-group">
               {services.map((s, idx) => (
-                <ServiceCard key={`a-${idx}`} s={s} idx={idx} globalIdx={idx} />
+                <ServiceCard key={`a-${idx}`} s={s} globalIdx={idx} />
               ))}
             </div>
             
             {/* Duplicate group for seamless loop */}
             <div className="marquee-group">
               {services.map((s, idx) => (
-                <ServiceCard key={`b-${idx}`} s={s} idx={idx} globalIdx={idx + services.length} />
+                <ServiceCard key={`b-${idx}`} s={s} globalIdx={idx + services.length} />
               ))}
             </div>
           </div>

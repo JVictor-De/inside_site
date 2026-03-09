@@ -26,7 +26,7 @@ const steps = [
   {
     icon: HeadphonesIcon,
     title: "Gestão Contínua",
-    description: "Acompanhamento ativo pós-implantação: monitoramento de sinistralidade, suporte em sinistros e blindagem contra reajustes abusivos."
+    description: "Acompanhamento ativo pós-implantação: monitoramento de sinistralidade, suporte em sinistros e apoio contínuo à operação da empresa."
   }
 ];
 

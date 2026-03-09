@@ -16,8 +16,8 @@ const companySize = [
 const challenges = [
   { value: "custos", label: "Reduzir Custos", icon: "💰", desc: "Pago muito pelos benefícios atuais" },
   { value: "beneficios", label: "Melhorar Benefícios", icon: "⭐", desc: "Quero atrair e reter talentos" },
-  { value: "burocracia", label: "Eliminar Burocracia", icon: "📋", desc: "RH sobrecarregado com operações" },
-  { value: "auditoria", label: "Auditoria Completa", icon: "🔍", desc: "Não sei se estou pagando certo" },
+  { value: "burocracia", label: "Suporte à seguradora", icon: "📋", desc: "Seu RH tem apoio da corretora?" },
+  { value: "auditoria", label: "Melhor custo-benefício", icon: "🔍", desc: "Não sei se estou pagando certo" },
 ];
 
 export function ProgressiveForm() {
@@ -31,7 +31,7 @@ export function ProgressiveForm() {
   });
 
   const handleSubmit = () => {
-    toast.success("Análise solicitada! Italo entrará em contato em até 24h.");
+    toast.success("Análise solicitada! Um de nossos especialistas fará contato para desenhar o melhor cenário para sua empresa.");
     setStep(1);
     setFormData({ size: "", challenge: "", name: "", phone: "", email: "" });
   };
@@ -223,7 +223,7 @@ export function ProgressiveForm() {
                   Quase lá! Como te contactamos?
                 </h3>
                 <p style={{ fontFamily: 'Lato, sans-serif', color: '#4A5568' }}>
-                  Italo entrará em contato em até 24h
+                  Para que possamos realizar uma consultoria mais eficaz
                 </p>
               </div>
             </div>

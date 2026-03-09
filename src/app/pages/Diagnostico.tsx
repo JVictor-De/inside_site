@@ -51,7 +51,7 @@ export function Diagnostico() {
               fontFamily: 'Lato, sans-serif'
             }}
           >
-            Análise gratuita em 48 horas. Você compartilha a apólice, nós entregamos um relatório executivo com três ações práticas de redução de custo. Sem reunioes de 2 horas. Sem letra miúda.
+            Você compartilha a apólice, nós entregamos um relatório executivo com três ações práticas de redução de custo. Sem reuniões de 2 horas. Sem letra miúda.
           </p>
 
           <div 
@@ -155,13 +155,13 @@ export function Diagnostico() {
                       className="text-xl font-bold mb-3"
                       style={{ color: '#0B2A45', fontFamily: 'Montserrat, sans-serif' }}
                     >
-                      Relatório Executivo em 48h Úteis
+                      Relatório Executivo
                     </h3>
                     <p 
                       className="text-base leading-relaxed"
                       style={{ color: '#4A5568', fontFamily: 'Lato, sans-serif' }}
                     >
-                      Sem enrolação. Você compartilha a apólice por e-mail seguro, e em 48h recebe PDF executivo com 3 ações práticas. Se não identificarmos nenhum vazamento, falamos na lâmina.
+                      Sem enrolação. Você compartilha a apólice por e-mail seguro e recebe um PDF executivo com 3 ações práticas. Se não identificarmos nenhum vazamento, falamos isso com clareza.
                     </p>
                   </div>
                 </div>
@@ -253,7 +253,7 @@ export function Diagnostico() {
                         className="text-sm"
                         style={{ color: '#4A5568', fontFamily: 'Lato, sans-serif' }}
                       >
-                        Resposta em até 24h úteis
+                        Para que possamos realizar uma consultoria mais eficaz
                       </p>
                     </div>
                   </div>

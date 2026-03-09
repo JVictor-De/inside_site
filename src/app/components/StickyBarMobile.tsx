@@ -92,7 +92,7 @@ export function StickyBarMobile() {
           fontFamily: 'Lato, sans-serif'
         }}
       >
-        Análise gratuita • Resposta em 24h
+        Análise gratuita • Consultoria sem compromisso
       </p>
     </div>
   );
