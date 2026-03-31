@@ -5,8 +5,8 @@ const approaches = [
   {
     icon: TrendingDown,
     title: "Otimização Financeira",
-    description: "Análise técnica que elimina coberturas duplicadas e taxas ocultas. O CFO aprova.",
-    metric: "22%",
+    description: "Análise técnica que elimina coberturas indesejáveis e taxas denecessárias. O CFO aprova.",
+    metric: "20%",
     metricLabel: "economia média"
   },
   {

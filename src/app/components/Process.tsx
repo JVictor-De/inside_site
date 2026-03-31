@@ -2,12 +2,12 @@ const steps = [
   {
     number: "01",
     title: "Análise Sem Compromisso",
-    description: "Você recebe um diagnóstico preliminar gratuito com os principais pontos de ineficiência."
+    description: "Você recebe um diagnóstico preliminar gratuito com os principais pontos de interesse."
   },
   {
     number: "02",
     title: "Proposta Técnica",
-    description: "Mostramos o cenário atual da seguradora, os princípios de cada alternativa e os benefícios de cada opção para a sua empresa."
+    description: "Mostramos o cenário atual da seguradora, as alternativas de mercado e as principais oportuinidades para a sua empresa."
   },
   {
     number: "03",

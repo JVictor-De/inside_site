@@ -67,14 +67,14 @@ export function Hero() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-8"
             style={{
               background: 'rgba(31, 122, 90, 0.2)',
-              border: '1px solid rgba(31, 122, 90, 0.3)',
+              border: '1px solid rgba(255, 255, 255, 0.3)',
               backdropFilter: 'blur(10px)'
             }}
           >
-            <TrendingDown className="h-4 w-4" style={{ color: '#1F7A5A' }} />
+            <TrendingDown className="h-4 w-4" style={{ color: '#ffffff' }} />
             <span 
               className="text-sm font-medium"
-              style={{ color: '#1F7A5A', fontFamily: 'Lato, sans-serif' }}
+              style={{ color: '#ffffff', fontFamily: 'Lato, sans-serif' }}
             >
               Consultoria Estratégica em Benefícios
             </span>
