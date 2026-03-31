@@ -33,7 +33,7 @@ export function Services() {
     ,
     {
       title: 'NR1\nSegurança',
-      img: '/photos/NR1.PNG'
+      img: '/photos/NR1.png'
     },
     {
       title: 'Assistência\nFuneral',
@@ -45,7 +45,7 @@ export function Services() {
     },
     {
       title: 'CCT - Acordos\nSindicais',
-      img: '/photos/AcordoSidical.png'
+      img: '/photos/AcordoSidicais.png'
     }
   ];
 
