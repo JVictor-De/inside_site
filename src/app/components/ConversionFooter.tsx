@@ -126,8 +126,8 @@ export function ConversionFooter() {
               <div 
                 className="inline-block px-4 py-2 rounded-full mb-4"
                 style={{ 
-                  background: 'rgba(31, 122, 90, 0.15)',
-                  border: '1px solid rgba(31, 122, 90, 0.3)'
+                  background: 'rgba(0, 255, 242, 0.15)',
+                  border: '1px solid rgba(0, 255, 242, 0.3)'
                 }}
               >
                 <span 
@@ -157,14 +157,14 @@ export function ConversionFooter() {
               <div 
                 className="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center"
                 style={{ 
-                  background: 'rgba(31, 122, 90, 0.2)',
-                  border: '2px solid rgba(31, 122, 90, 0.4)'
+                  background: 'rgba(0, 255, 242, 0.2)',
+                  border: '2px solid rgba(0, 255, 242, 0.4)'
                 }}
               >
                 <svg 
                   className="w-6 h-6" 
                   fill="none" 
-                  stroke="#1F7A5A" 
+                  stroke="#FFEE00" 
                   viewBox="0 0 24 24"
                 >
                   <path 
@@ -201,14 +201,14 @@ export function ConversionFooter() {
               <div 
                 className="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center"
                 style={{ 
-                  background: 'rgba(31, 122, 90, 0.2)',
-                  border: '2px solid rgba(31, 122, 90, 0.4)'
+                  background: 'rgba(0, 255, 242, 0.2)',
+                  border: '2px solid rgba(0, 255, 242, 0.4)'
                 }}
               >
                 <svg 
                   className="w-6 h-6" 
                   fill="none" 
-                  stroke="#1F7A5A" 
+                  stroke="#FFEE00" 
                   viewBox="0 0 24 24"
                 >
                   <path 

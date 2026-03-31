@@ -33,7 +33,7 @@ export function Services() {
     ,
     {
       title: 'NR1\nSegurança',
-      img: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop'
+      img: 'https://source.unsplash.com/800x600/?safety,helmet,workplace'
     },
     {
       title: 'Assistência\nFuneral',
@@ -45,7 +45,7 @@ export function Services() {
     },
     {
       title: 'CCT - Acordos\nSindicais',
-      img: 'https://images.unsplash.com/photo-1551918120-973d3a6f1e83?q=80&w=800&auto=format&fit=crop'
+      img: 'https://source.unsplash.com/800x600/?handshake,contract,agreement'
     }
   ];
 

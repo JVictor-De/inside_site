@@ -7,10 +7,10 @@ import { ArrowRight, ArrowLeft, Building2, Target, User, CheckCircle2 } from "lu
 type Step = 1 | 2 | 3 | 4;
 
 const companySize = [
-  { value: "3-29", label: "3 a 29 vidas", sublabel: "" },
-  { value: "30-99", label: "30 a 99 vidas", sublabel: "" },
-  { value: "100-200", label: "100 a 200 vidas", sublabel: "" },
-  { value: "201+", label: "201+ vidas", sublabel: "" },
+  { value: "3-29", label: "3-29", sublabel: "vidas" },
+  { value: "30-99", label: "30-99", sublabel: "vidas" },
+  { value: "100-200", label: "100-200", sublabel: "vidas" },
+  { value: "201+", label: "201+", sublabel: "vidas" },
 ];
 
 const challenges = [
@@ -128,7 +128,7 @@ export function ProgressiveForm() {
                     {size.label}
                   </div>
                   <div 
-                    className="text-sm"
+                    className="text-xs"
                     style={{ 
                       color: '#4A5568',
                       fontFamily: 'Lato, sans-serif'
