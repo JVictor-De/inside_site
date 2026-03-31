@@ -30,6 +30,23 @@ export function Services() {
       title: 'Clube de\nVantagens',
       img: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=800&auto=format&fit=crop'
     }
+    ,
+    {
+      title: 'NR1\nSegurança',
+      img: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop'
+    },
+    {
+      title: 'Assistência\nFuneral',
+      img: 'https://images.unsplash.com/photo-1521334884684-d80222895322?q=80&w=800&auto=format&fit=crop'
+    },
+    {
+      title: 'Tíquete\nAlimentação e\nRefeição',
+      img: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=800&auto=format&fit=crop'
+    },
+    {
+      title: 'CCT - Acordos\nSindicais',
+      img: 'https://images.unsplash.com/photo-1551918120-973d3a6f1e83?q=80&w=800&auto=format&fit=crop'
+    }
   ];
 
   // Navegar para ConversionFooter ao clicar no card
