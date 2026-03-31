@@ -7,10 +7,10 @@ import { ArrowRight, ArrowLeft, Building2, Target, User, CheckCircle2 } from "lu
 type Step = 1 | 2 | 3 | 4;
 
 const companySize = [
-  { value: "5-20", label: "5-20", sublabel: "Pequena" },
-  { value: "21-50", label: "21-50", sublabel: "Média" },
-  { value: "51-100", label: "51-100", sublabel: "Em crescimento" },
-  { value: "100+", label: "100+", sublabel: "Grande" },
+  { value: "3-29", label: "3 a 29 vidas", sublabel: "" },
+  { value: "30-99", label: "30 a 99 vidas", sublabel: "" },
+  { value: "100-200", label: "100 a 200 vidas", sublabel: "" },
+  { value: "201+", label: "201+ vidas", sublabel: "" },
 ];
 
 const challenges = [

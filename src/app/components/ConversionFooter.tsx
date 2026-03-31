@@ -132,7 +132,7 @@ export function ConversionFooter() {
               >
                 <span 
                   className="text-sm font-semibold"
-                  style={{ color: '#1F7A5A', fontFamily: 'Lato, sans-serif' }}
+                    style={{ color: '#FFEE00', fontFamily: 'Lato, sans-serif' }}
                 >
                   Vamos acelerar?
                 </span>
@@ -146,7 +146,7 @@ export function ConversionFooter() {
                   letterSpacing: '-0.02em'
                 }}
               >
-                Dar o próximo <span style={{ color: '#1F7A5A' }}>passo</span>
+                Dar o próximo <span style={{ color: '#FFEE00' }}>passo</span>
                 <br />
                 leva apenas um minuto!
               </h3>
@@ -180,7 +180,7 @@ export function ConversionFooter() {
                 <h4 
                   className="text-xl font-bold mb-2"
                   style={{ 
-                    color: '#1F7A5A',
+                    color: '#FFEE00',
                     fontFamily: 'Montserrat, sans-serif',
                     letterSpacing: '0.02em'
                   }}
@@ -224,7 +224,7 @@ export function ConversionFooter() {
                 <h4 
                   className="text-xl font-bold mb-2"
                   style={{ 
-                    color: '#1F7A5A',
+                    color: '#FFEE00',
                     fontFamily: 'Montserrat, sans-serif',
                     letterSpacing: '0.02em'
                   }}
