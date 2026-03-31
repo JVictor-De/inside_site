@@ -33,19 +33,19 @@ export function Services() {
     ,
     {
       title: 'NR1\nSegurança',
-      img: 'https://source.unsplash.com/800x600/?safety,helmet,workplace'
+      img: '/photos/NR1.PNG'
     },
     {
       title: 'Assistência\nFuneral',
       img: 'https://images.unsplash.com/photo-1521334884684-d80222895322?q=80&w=800&auto=format&fit=crop'
     },
     {
-      title: 'Tíquete\nAlimentação e\nRefeição',
+      title: 'Tíquete Alimentação e\nRefeição',
       img: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=800&auto=format&fit=crop'
     },
     {
       title: 'CCT - Acordos\nSindicais',
-      img: 'https://source.unsplash.com/800x600/?handshake,contract,agreement'
+      img: '/photos/AcordoSidical.png'
     }
   ];
 

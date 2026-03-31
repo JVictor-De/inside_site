@@ -280,7 +280,7 @@ export function ConversionFooter() {
               style={{ 
                 background: 'rgba(31, 122, 90, 0.15)',
                 border: '1px solid rgba(31, 122, 90, 0.4)',
-                color: '#1F7A5A',
+                color: '#25D366',
                 fontFamily: 'Lato, sans-serif'
               }}
             >
