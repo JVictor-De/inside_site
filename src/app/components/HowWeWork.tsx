@@ -6,7 +6,7 @@ const steps = [
   {
     icon: Search,
     title: "Diagnóstico Detalhado",
-    description: "Mapeamento completo dos contratos atuais, identificando coberturas duplicadas, taxas ocultas e oportunidades de economia imediata."
+    description: "Mapeamento completo dos contratos atuais, identificando coberturas desnecessárias, taxas indevidas e oportunidades de economia imediata."
   },
   {
     icon: TrendingUp,
