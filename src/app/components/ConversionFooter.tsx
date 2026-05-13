@@ -289,10 +289,7 @@ export function ConversionFooter() {
             </a>
             
             <a 
-              href="https://wa.me/5521992175903?text=Seja Bem Vindo!
-Sou o Italo Castellano e sou especialista em benefícios e seguros empresariais.
-O que posso ajuda-lo?
- "
+              href="https://wa.me/5521992175903?text=Seja%20Bem%20Vindo!%0ASou%20o%20Italo%20Castellano%20e%20sou%20especialista%20em%20benef%C3%ADcios%20e%20seguros%20empresariais.%0AO%20que%20posso%20ajuda-lo%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="relative inline-flex items-center justify-center w-full sm:w-auto gap-3 px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl overflow-hidden group"

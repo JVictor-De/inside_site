@@ -61,7 +61,7 @@ export function Footer() {
                 <img src="/photos/icons/icon-linkedin.png" alt="" className="w-4 h-4 object-contain opacity-90" />
               </a>
               <a
-                href="https://wa.me/5521992175903?text=Olá! Vim pelo site e gostaria de mais informações."
+                href="https://wa.me/5521992175903?text=Seja%20Bem%20Vindo!%0ASou%20o%20Italo%20Castellano%20e%20sou%20especialista%20em%20benef%C3%ADcios%20e%20seguros%20empresariais.%0AO%20que%20posso%20ajuda-lo%3F"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-md hover:opacity-70 transition"
@@ -139,7 +139,7 @@ export function Footer() {
                 </h4>
                 <div className="flex items-center gap-2">
                   <a
-                    href="https://wa.me/5521992175903?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+                    href="https://wa.me/5521992175903?text=Seja%20Bem%20Vindo!%0ASou%20o%20Italo%20Castellano%20e%20sou%20especialista%20em%20benef%C3%ADcios%20e%20seguros%20empresariais.%0AO%20que%20posso%20ajuda-lo%3F"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-shrink-0 w-7 h-7 flex items-center justify-center rounded-md hover:opacity-70 transition"

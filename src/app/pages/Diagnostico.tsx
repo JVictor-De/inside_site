@@ -183,7 +183,7 @@ export function Diagnostico() {
                 </h3>
                 <div className="space-y-4">
                   <a 
-                    href="https://wa.me/5521992175903?text=Olá! Vim pelo site e gostaria de mais informações."
+                    href="https://wa.me/5521992175903?text=Seja%20Bem%20Vindo!%0ASou%20o%20Italo%20Castellano%20e%20sou%20especialista%20em%20benef%C3%ADcios%20e%20seguros%20empresariais.%0AO%20que%20posso%20ajuda-lo%3F"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="relative flex items-center gap-3 p-5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl overflow-hidden group"
