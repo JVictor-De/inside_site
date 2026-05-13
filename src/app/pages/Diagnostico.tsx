@@ -1,10 +1,16 @@
 import { Process } from "../components/Process";
 import { Footer } from "../components/Footer";
 import { StickyBarMobile } from "../components/StickyBarMobile";
+import { SEO } from "../components/SEO";
 
 export function Diagnostico() {
   return (
     <div className="pt-16">
+      <SEO 
+        title="Diagnóstico Gratuito de Apólice Empresarial" 
+        description="Descubra os vazamentos da sua apólice atual de benefícios em um relatório executivo rápido e sem compromisso."
+        canonical="/diagnostico"
+      />
       {/* Hero Section */}
       <section 
         className="py-24 relative"

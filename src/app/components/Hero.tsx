@@ -1,5 +1,5 @@
 import { Button } from "@/app/components/ui/button";
-import { ArrowRight, TrendingDown } from "lucide-react";
+import { ArrowRight, TrendingUp } from "lucide-react";
 
 export function Hero() {
   return (
@@ -25,6 +25,14 @@ export function Hero() {
             backgroundRepeat: 'no-repeat',
             // Mantemos blend para preservar o tom escuro do layout
             backgroundBlendMode: 'multiply'
+          }}
+        />
+        
+        {/* Gradient overlay (fraco em cima, mais forte em baixo) */}
+        <div 
+          className="absolute inset-0 z-0"
+          style={{
+            background: 'linear-gradient(to bottom, rgba(11, 42, 69, 0.1) 0%, rgba(11, 42, 69, 0.80) 170%)'
           }}
         />
         
@@ -60,21 +68,26 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 w-full">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-20 lg:pt-32 lg:pb-24 w-full">
         <div className="max-w-5xl">
           {/* Pre-headline badge */}
           <div 
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-8"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 lg:mb-8"
             style={{
               background: 'rgba(31, 122, 90, 0.2)',
               border: '1px solid rgba(255, 255, 255, 0.3)',
               backdropFilter: 'blur(10px)'
             }}
           >
-            <TrendingDown className="h-4 w-4" style={{ color: '#ffffff' }} />
+            <TrendingUp className="h-4 w-4" style={{ color: '#30ad81' }} />
             <span 
               className="text-sm font-medium"
-              style={{ color: '#ffffff', fontFamily: 'Lato, sans-serif' }}
+              style={{ 
+                background: 'linear-gradient(to right, #30ad81, #38ecad)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                fontFamily: 'Lato, sans-serif' 
+              }}
             >
               Consultoria Estratégica em Benefícios
             </span>
@@ -82,7 +95,7 @@ export function Hero() {
 
           {/* Main Headline - Dramatic Typography */}
           <h1 
-            className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight mb-6"
+            className="text-4xl sm:text-5xl lg:text-5xl xl:text-6xl leading-tight lg:leading-[1.1] mb-6"
             style={{ 
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 900,
@@ -135,7 +148,7 @@ export function Hero() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Button 
               size="lg"
-              className="text-lg px-10 py-7 rounded-full text-white shadow-2xl hover:scale-105 transition-all duration-300 group"
+              className="text-base lg:text-lg px-8 py-6 lg:px-10 lg:py-7 rounded-full text-white shadow-2xl hover:scale-105 transition-all duration-300 group"
               style={{ 
                 background: 'linear-gradient(135deg, #1F7A5A 0%, #0B2A45 100%)',
                 fontFamily: 'Lato, sans-serif',
@@ -158,7 +171,7 @@ export function Hero() {
             <Button 
               size="lg"
               variant="outline"
-              className="text-lg px-10 py-7 rounded-full hover:scale-105 transition-all duration-300"
+              className="text-base lg:text-lg px-8 py-6 lg:px-10 lg:py-7 rounded-full hover:scale-105 transition-all duration-300"
               style={{ 
                 borderColor: 'rgba(255, 255, 255, 0.3)',
                 color: 'white',
@@ -177,9 +190,9 @@ export function Hero() {
           </div>
 
           {/* Trust indicators */}
-          <div className="mt-16 pt-8 border-t border-white/10">
+          <div className="mt-12 lg:mt-12 xl:mt-16 pt-6 lg:pt-8 border-t border-white/10">
             <p 
-              className="text-sm mb-4"
+              className="text-sm mb-3 lg:mb-4"
               style={{ color: 'rgba(255, 255, 255, 0.5)', fontFamily: 'Lato, sans-serif' }}
             >
               Resultados comprovados com empresas como:
@@ -198,7 +211,7 @@ export function Hero() {
             
             {/* PROOF BANNER - Dentro do Hero para máxima visibilidade */}
             <div 
-              className="mt-8 p-6 rounded-2xl border-2 hover:scale-[1.02] transition-all duration-300 cursor-pointer"
+              className="mt-6 lg:mt-8 p-5 lg:p-6 rounded-2xl border-2 hover:scale-[1.02] transition-all duration-300 cursor-pointer"
               style={{
                 background: 'linear-gradient(135deg, rgba(31, 122, 90, 0.15), rgba(11, 42, 69, 0.1))',
                 backdropFilter: 'blur(20px)',

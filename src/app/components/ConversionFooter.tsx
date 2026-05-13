@@ -6,7 +6,7 @@ export function ConversionFooter() {
     <section 
       id="contact-section"
       data-section="conversion-footer"
-      className="py-24 relative overflow-hidden"
+      className="pt-4 pb-8 lg:pt-6 lg:pb-10 2xl:pt-10 2xl:pb-16 relative overflow-hidden"
       style={{ 
         background: 'linear-gradient(135deg, rgba(11, 42, 69, 0.98) 0%, rgba(6, 20, 35, 1) 100%)'
       }}
@@ -47,28 +47,28 @@ export function ConversionFooter() {
 
       <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-16 relative z-10">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 lg:mb-12 2xl:mb-16">
           <div 
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-4 lg:mb-6"
             style={{ 
-              background: 'rgba(31, 122, 90, 0.15)',
-              border: '1px solid rgba(31, 122, 90, 0.3)'
+              background: 'rgba(43, 176, 130, 0.15)',
+              border: '1px solid rgba(43, 176, 130, 0.3)'
             }}
           >
             <div 
               className="w-2 h-2 rounded-full animate-pulse"
-              style={{ backgroundColor: '#1F7A5A' }}
+              style={{ backgroundColor: '#2BB082' }}
             />
             <span 
               className="text-sm font-medium"
-              style={{ color: '#1F7A5A', fontFamily: 'Lato, sans-serif' }}
+              style={{ color: '#2BB082', fontFamily: 'Lato, sans-serif' }}
             >
               Análise gratuita e sem compromisso
             </span>
           </div>
 
           <h2 
-            className="text-4xl sm:text-5xl lg:text-6xl mb-6 text-white leading-tight"
+            className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl mb-4 xl:mb-6 text-white leading-tight"
             style={{ 
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 900,
@@ -110,7 +110,7 @@ export function ConversionFooter() {
           
           {/* Inner Glass Container */}
           <div 
-            className="rounded-3xl p-8 lg:p-16 relative"
+            className="rounded-3xl p-4 sm:p-6 lg:p-8 xl:p-10 2xl:p-16 relative"
             style={{
               background: 'rgba(255, 255, 255, 0.03)',
               backdropFilter: 'blur(10px)',
@@ -118,9 +118,9 @@ export function ConversionFooter() {
             }}
           >
             {/* Two Column Layout */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 xl:gap-10 2xl:gap-12 items-center">
           {/* Left Column - Informative Content */}
-          <div className="lg:col-span-5 space-y-8">
+          <div className="lg:col-span-5 space-y-5 xl:space-y-6 2xl:space-y-8">
             {/* Header */}
             <div>
               <div 
@@ -139,7 +139,7 @@ export function ConversionFooter() {
               </div>
               
               <h3 
-                className="text-3xl lg:text-4xl font-bold text-white mb-6"
+                className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-3 xl:mb-4 2xl:mb-6"
                 style={{ 
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 700,
@@ -178,7 +178,7 @@ export function ConversionFooter() {
               
               <div className="flex-1">
                 <h4 
-                  className="text-xl font-bold mb-2"
+                  className="text-lg lg:text-xl font-bold mb-1"
                   style={{ 
                     color: '#FFEE00',
                     fontFamily: 'Montserrat, sans-serif',
@@ -188,7 +188,7 @@ export function ConversionFooter() {
                   PREENCHA O FORMULÁRIO
                 </h4>
                 <p 
-                  className="text-white/80 leading-relaxed"
+                  className="text-white/80 leading-relaxed text-sm xl:text-base"
                   style={{ fontFamily: 'Lato, sans-serif' }}
                 >
                   Envie suas informações de contato. Todos os seus dados estarão seguros, vamos cuidar bem deles.
@@ -222,7 +222,7 @@ export function ConversionFooter() {
               
               <div className="flex-1">
                 <h4 
-                  className="text-xl font-bold mb-2"
+                  className="text-lg lg:text-xl font-bold mb-1"
                   style={{ 
                     color: '#FFEE00',
                     fontFamily: 'Montserrat, sans-serif',
@@ -232,7 +232,7 @@ export function ConversionFooter() {
                   RECEBA UMA LIGAÇÃO DE NOSSOS ESPECIALISTAS
                 </h4>
                 <p 
-                  className="text-white/80 leading-relaxed"
+                  className="text-white/80 leading-relaxed text-sm xl:text-base"
                   style={{ fontFamily: 'Lato, sans-serif' }}
                 >
                   Um de nossos especialistas fará contato para agendar a reunião mais estratégica do seu ano. Juntos, criaremos um plano completo para estancar seus custos financeiros.
@@ -244,13 +244,13 @@ export function ConversionFooter() {
               {/* Right Column - Progressive Form Card */}
               <div className="lg:col-span-7 w-full">
                 <div 
-                  className="rounded-3xl p-1.5 shadow-2xl w-full max-w-2xl mx-auto lg:mx-0"
+                  className="rounded-3xl p-1 shadow-2xl w-full max-w-2xl mx-auto lg:max-w-none lg:mx-0"
                   style={{
                     background: 'linear-gradient(135deg, rgba(31, 122, 90, 0.5), rgba(31, 122, 90, 0.1))'
                   }}
                 >
                   <div 
-                    className="rounded-3xl px-10 py-10 md:px-14 md:py-12 w-full"
+                    className="rounded-3xl px-4 py-6 sm:px-6 sm:py-6 lg:px-8 lg:py-8 xl:px-10 xl:py-10 2xl:px-14 2xl:py-12 w-full"
                     style={{
                       background: 'rgba(255, 255, 255, 0.97)',
                       backdropFilter: 'blur(20px)'
@@ -265,18 +265,18 @@ export function ConversionFooter() {
         </div>
 
         {/* Alternative Contact */}
-        <div className="mt-16 text-center">
+        <div className="mt-8 xl:mt-12 2xl:mt-16 text-center">
           <p 
-            className="text-white/60 mb-6"
+            className="text-white/60 mb-4 xl:mb-6"
             style={{ fontFamily: 'Lato, sans-serif' }}
           >
             Prefere falar diretamente com um consultor?
           </p>
           
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 w-full px-4 sm:px-0">
             <a 
               href="tel:+5521992175903"
-              className="inline-flex items-center gap-3 px-6 py-4 rounded-full font-semibold transition-all hover:scale-105 hover:shadow-lg"
+              className="inline-flex items-center justify-center w-full sm:w-auto gap-3 px-6 py-4 rounded-full font-semibold transition-all hover:scale-105 hover:shadow-lg"
               style={{ 
                 background: 'rgba(31, 122, 90, 0.15)',
                 border: '1px solid rgba(31, 122, 90, 0.4)',
@@ -284,15 +284,18 @@ export function ConversionFooter() {
                 fontFamily: 'Lato, sans-serif'
               }}
             >
-              <Phone className="h-5 w-5" />
-              (21) 99217-5903
+              <Phone className="h-5 w-5 flex-shrink-0" />
+              <span className="whitespace-nowrap">(21) 99217-5903</span>
             </a>
             
             <a 
-              href="https://wa.me/5521992175903?text=Olá! Gostaria de uma análise dos benefícios da minha empresa."
+              href="https://wa.me/5521992175903?text=Seja Bem Vindo!
+Sou o Italo Castellano e sou especialista em benefícios e seguros empresariais.
+O que posso ajuda-lo?
+ "
               target="_blank"
               rel="noopener noreferrer"
-              className="relative inline-flex items-center gap-3 px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl overflow-hidden group"
+              className="relative inline-flex items-center justify-center w-full sm:w-auto gap-3 px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl overflow-hidden group"
               style={{ 
                 background: 'linear-gradient(135deg, #25D366 0%, #128C7E 100%)',
                 color: 'white',

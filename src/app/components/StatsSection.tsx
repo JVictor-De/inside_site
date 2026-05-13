@@ -38,9 +38,9 @@ export function StatsSection() {
           <div>
             <p 
               className="text-sm font-semibold uppercase tracking-wider mb-4"
-              style={{ color: '#1F7A5A', fontFamily: 'Lato, sans-serif' }}
+              style={{ color: '#2BB082', fontFamily: 'Lato, sans-serif' }}
             >
-              Case de Sucesso
+              Case COMPROVADO
             </p>
             <h3 
               className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-6"
@@ -57,10 +57,10 @@ export function StatsSection() {
               <div 
                 className="text-8xl sm:text-9xl font-black relative z-10"
                 style={{ 
-                  color: '#1F7A5A',
+                  color: '#2BB082',
                   fontFamily: 'Montserrat, sans-serif',
                   letterSpacing: '-0.05em',
-                  textShadow: '0 0 60px rgba(31, 122, 90, 0.6), 0 0 30px rgba(31, 122, 90, 0.4)',
+                  textShadow: '0 0 60px rgba(43, 176, 130, 0.6), 0 0 30px rgba(43, 176, 130, 0.4)',
                   lineHeight: '1'
                 }}
               >
@@ -86,13 +86,13 @@ export function StatsSection() {
               DE REDUÇÃO IMEDIATA
             </p>
             <p 
-              className="text-lg text-gray-100 mb-6 leading-relaxed"
+              className="text-lg text-white mb-6 leading-relaxed"
               style={{ fontFamily: 'Lato, sans-serif' }}
             >
               Após auditoria e pesquisa de mercado, organizamos a reestruturação completa dos planos de saúde, obtendo <strong>redução de 30%</strong> para empresa.
             </p>
             <p 
-              className="text-lg text-gray-100 mb-8 leading-relaxed"
+              className="text-lg text-white mb-8 leading-relaxed"
               style={{ fontFamily: 'Lato, sans-serif' }}
             >
               <strong>Mantendo o mesmo padrão e cobertura</strong> e melhorando a satisfação dos colaboradores. Esta ação representou uma economia significativa para o cliente.
@@ -108,7 +108,7 @@ export function StatsSection() {
               }}
               className="inline-block px-8 py-4 rounded-full font-semibold shadow-lg transition-transform hover:scale-105"
               style={{
-                backgroundColor: '#1F7A5A',
+                backgroundColor: '#2BB082',
                 color: 'white',
                 fontFamily: 'Lato, sans-serif'
               }}

@@ -2,10 +2,16 @@ import { StatsSection } from "../components/StatsSection";
 import { Methodology } from "../components/Methodology";
 import { Footer } from "../components/Footer";
 import { StickyBarMobile } from "../components/StickyBarMobile";
+import { SEO } from "../components/SEO";
 
 export function Resultados() {
   return (
     <div className="pt-16">
+      <SEO 
+        title="Resultados Reais e Cases de Sucesso" 
+        description="Dados reais de empresas que eliminaram até 40% de custos com benefícios. Sem promessas de marketing. Só auditoria e execução cirúrgica."
+        canonical="/resultados"
+      />
       {/* Hero Section para Resultados */}
       <section 
         className="py-24 relative"

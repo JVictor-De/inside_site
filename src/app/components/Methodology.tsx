@@ -30,7 +30,7 @@ export function Methodology() {
   
   return (
     <div 
-      className="py-24 relative overflow-hidden"
+      className="py-12 lg:py-16 relative overflow-hidden"
       style={{ 
         background: 'linear-gradient(180deg, #FFFFFF 0%, #F8FAFB 100%)'
       }}
@@ -60,9 +60,9 @@ export function Methodology() {
         ref={ref}
         className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-reveal ${isVisible ? 'is-visible' : ''}`}
       >
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 lg:mb-12">
           <h2 
-            className="text-4xl sm:text-5xl lg:text-6xl mb-6 leading-tight"
+            className="text-3xl sm:text-4xl lg:text-5xl mb-4 lg:mb-6 leading-tight"
             style={{ 
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 900,
@@ -75,7 +75,7 @@ export function Methodology() {
             <span style={{ color: '#1F7A5A' }}>APLICAMOS INTELIGÊNCIA</span>
           </h2>
           <p 
-            className="text-xl text-gray-600 max-w-3xl mx-auto"
+            className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto"
             style={{ fontFamily: 'Lato, sans-serif' }}
           >
             Metodologia baseada em dados para transformar seguros de custo fixo em investimento estratégico

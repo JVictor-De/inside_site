@@ -93,16 +93,19 @@ export function Header() {
 
           {/* CTA Desktop */}
           <div className="hidden md:block">
-            <Button 
-              onClick={scrollToContact}
-              className="rounded-full gap-2 relative overflow-hidden group transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+            <a 
+              href="https://wa.me/5521992175903?text=Seja%20Bem%20Vindo!%0ASou%20o%20Italo%20Castellano%20e%20sou%20especialista%20em%20benef%C3%ADcios%20e%20seguros%20empresariais.%0AO%20que%20posso%20ajuda-lo%3F"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center rounded-full gap-2 relative overflow-hidden group transition-all duration-300 hover:scale-105 hover:shadow-2xl px-8 py-2"
               style={{ 
                 background: 'linear-gradient(135deg, #1F7A5A 0%, #0B2A45 100%)',
                 color: '#FFFFFF',
                 fontFamily: 'Lato, sans-serif',
                 border: 'none',
                 boxShadow: '0 4px 20px rgba(31, 122, 90, 0.4)',
-                fontWeight: 600
+                fontWeight: 600,
+                height: '40px'
               }}
             >
               {/* Animated gradient overlay */}
@@ -134,7 +137,7 @@ export function Header() {
               
               <Phone className="h-4 w-4 relative z-10 group-hover:rotate-12 transition-transform duration-300" />
               <span className="relative z-10">Agendar Consultoria</span>
-            </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -238,12 +241,12 @@ export function Header() {
             </Button>
             
             <div className="mt-4 pt-4 border-t border-white/20">
-              <Button 
-                onClick={() => {
-                  scrollToContact();
-                  setIsMobileMenuOpen(false);
-                }}
-                className="w-full rounded-full gap-2 py-6"
+              <a 
+                href="https://wa.me/5521992175903?text=Seja%20Bem%20Vindo!%0ASou%20o%20Italo%20Castellano%20e%20sou%20especialista%20em%20benef%C3%ADcios%20e%20seguros%20empresariais.%0AO%20que%20posso%20ajuda-lo%3F"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="w-full inline-flex items-center justify-center rounded-full gap-2 py-6"
                 style={{ 
                   background: 'linear-gradient(135deg, #1F7A5A 0%, #0B2A45 100%)',
                   color: '#FFFFFF',
@@ -254,7 +257,7 @@ export function Header() {
               >
                 <Phone className="h-5 w-5" />
                 Falar com Consultor
-              </Button>
+              </a>
             </div>
           </div>
         </div>

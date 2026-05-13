@@ -52,7 +52,7 @@ export function HowWeWork() {
   
   return (
     <section 
-      className="py-24 relative overflow-hidden"
+      className="py-12 lg:py-16 relative overflow-hidden"
       style={{ 
         background: 'linear-gradient(180deg, #F8FAFB 0%, #EDF2F7 100%)'
       }}
@@ -94,9 +94,9 @@ export function HowWeWork() {
         ref={ref}
         className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-reveal relative z-10 ${isVisible ? 'is-visible' : ''}`}
       >
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 lg:mb-12">
           <div 
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-4 lg:mb-6"
             style={{ 
               background: 'rgba(31, 122, 90, 0.1)',
               border: '1px solid rgba(31, 122, 90, 0.2)'
@@ -114,7 +114,7 @@ export function HowWeWork() {
             </span>
           </div>
           <h2 
-            className="text-4xl sm:text-5xl lg:text-6xl mb-6 leading-tight"
+            className="text-3xl sm:text-4xl lg:text-5xl mb-4 lg:mb-6 leading-tight"
             style={{ 
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 900,
@@ -125,7 +125,7 @@ export function HowWeWork() {
             COMO TRABALHAMOS
           </h2>
           <p 
-            className="text-xl max-w-3xl mx-auto"
+            className="text-base sm:text-lg lg:text-xl max-w-3xl mx-auto"
             style={{ 
               fontFamily: 'Lato, sans-serif',
               color: '#4A5568'

@@ -1,9 +1,15 @@
 import { Footer } from "../components/Footer";
 import { StickyBarMobile } from "../components/StickyBarMobile";
+import { SEO } from "../components/SEO";
 
 export function QuemSomos() {
   return (
     <div className="pt-16">
+      <SEO 
+        title="Quem Somos | Corretores Especialistas" 
+        description="A INSITE existe para corrigir as assimetrias dos planos de saúde empresariais. Somos especialistas orientados a dados. Conheça nossa história."
+        canonical="/quem-somos"
+      />
       {/* Hero Section */}
       <section 
         className="py-24 relative"

@@ -1,10 +1,16 @@
 import { HowWeWork } from "../components/HowWeWork";
 import { Footer } from "../components/Footer";
 import { StickyBarMobile } from "../components/StickyBarMobile";
+import { SEO } from "../components/SEO";
 
 export function Metodologia() {
   return (
     <div className="pt-16">
+      <SEO 
+        title="Nossa Metodologia | Auditoria Viva e Contínua" 
+        description="O trabalho não termina na venda. A INSITE opera em auditoria contínua prevenida de reajustes altos para seu plano de saúde empresarial."
+        canonical="/metodologia"
+      />
       {/* Hero Section */}
       <section 
         className="py-24 relative"

@@ -19,7 +19,7 @@ export function FeaturesSection() {
   ];
 
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
+    <section className="py-12 lg:py-16 bg-white relative overflow-hidden">
       {/* Decorative top border */}
       <div className="absolute top-0 left-0 right-0 h-1" style={{ background: 'linear-gradient(90deg, transparent, #1F7A5A, transparent)' }} />
       
@@ -35,9 +35,9 @@ export function FeaturesSection() {
         ref={ref}
         className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-reveal relative z-10 ${isVisible ? 'is-visible' : ''}`}
       >
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 lg:mb-12">
           <div 
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-4 lg:mb-6"
             style={{ 
               background: 'rgba(31, 122, 90, 0.1)',
               border: '1px solid rgba(31, 122, 90, 0.2)'
@@ -55,7 +55,7 @@ export function FeaturesSection() {
             </span>
           </div>
           <h2 
-            className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight"
+            className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight"
             style={{ 
               color: '#0B2A45',
               fontFamily: 'Montserrat, sans-serif',

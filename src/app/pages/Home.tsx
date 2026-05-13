@@ -9,10 +9,16 @@ import { Process } from "../components/Process";
 import { ConversionFooter } from "../components/ConversionFooter";
 import { Footer } from "../components/Footer";
 import { StickyBarMobile } from "../components/StickyBarMobile";
+import { SEO } from "../components/SEO";
 
 export function Home() {
   return (
    <div className="min-h-screen bg-white">
+      <SEO 
+        title="Plano de Saúde Empresarial e Gestão de Benefícios" 
+        description="Corretora especializada em plano de saúde empresarial, seguro de vida e gestão de benefícios corporativos no Rio de Janeiro. Auditoria técnica inteligente."
+        canonical="/"
+      />
       {/* A Dor (O Problema) */}
       <Hero />
 
